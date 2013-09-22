@@ -1,2 +1,5 @@
 /img/audatia/protos
-/.idead
+/.idea
+/.idea/*
+/.DS_Store
+/img/.DS_Store
