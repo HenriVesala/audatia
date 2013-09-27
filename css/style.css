@@ -82,12 +82,18 @@ ul, ol {
 	line-height: 1.5; /* 24px */
 	margin: 0 0 1.5em 0;
 }
-ol li span {
+ol li span, ul li span  {
     font-family: 'patua serif';
 
 }
 
 body, input, textarea {
+}
+
+.tk-present {
+    margin-top: 1em;
+    font-size: 1.2em
+    font-family:  cursive;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -151,6 +157,7 @@ small {
 	margin-top: 2em;
 	margin-bottom: 0em;
 }
+
 
 
 
