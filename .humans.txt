@@ -1,0 +1,19 @@
+/* TEAM */
+
+Creator: Henri "Tohtori" Vesala
+Contact: henri.vesala@fraktio.fi
+Twitter: @DrVesala
+From: Espoo, Finland
+
+
+/* THANKS */
+
+Hosting: Fraktio Oy
+Twitter: @fraktioHq
+From: Helsinki, Finland
+
+/* SITE */
+
+Language: English
+Doctype: HTML5
+Tech: javascript, css, nginx
