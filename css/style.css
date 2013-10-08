@@ -217,10 +217,8 @@ article img.card {
 
 article p {
     font-family: 'patua serif';
-    font-size: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
-
     text-align: left;
 }
 
@@ -681,6 +679,10 @@ footer {
     .alternate-background section .borders {
         background-size:auto 30px;
     }
+
+    html {
+        font-size: 80%;
+    }
 }
 
 @media screen and (min-width: 600px) {
@@ -742,6 +744,10 @@ footer {
     .container {
         padding-right: 5px;
         padding-left: 5px;
+    }
+    body {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 }
     
