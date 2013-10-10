@@ -1,9 +1,20 @@
 /* TEAM */
 
-Creator: Henri "Tohtori" Vesala
+Web developer: Henri "Tohtori" Vesala
 Contact: henri.vesala@fraktio.fi
 Twitter: @DrVesala
 From: Espoo, Finland
+
+
+Design Team:
+
+Creator: Guy Windsor
+
+Creator: Rami Laaksonen
+
+Creator: Samuli Ranien
+
+Graphics: Jussi Alarauhio
 
 
 /* THANKS */
