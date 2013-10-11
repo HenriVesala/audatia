@@ -209,6 +209,7 @@ article img{
     box-shadow: 0 0px 30px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 0 0px 30px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0 0px 30px rgba(0, 0, 0, 0.4);
+    max-width: 90%;
 }
 
 article img.card {
@@ -249,6 +250,11 @@ article .inside {
 .container {
     padding: 1em 0;
 }
+
+#persons-who .container .row {
+    margin: 0 auto;
+}
+
 
 ul.gauntlets
 {
@@ -727,16 +733,19 @@ footer {
     }
 
     article {
-        width: 50%;
+        width: 70%;
     }
     body article.middle-image {
         display: block ;
     }
-
 }
 @media screen and (min-width: 979px) {
     .borders header {
         margin: 0px 85px  0 85px;
+    }
+
+    article {
+        width: 50%;
     }
 }
 
@@ -749,8 +758,18 @@ footer {
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+
 }
-    
+
+@media (max-width: 860px) and (min-width: 768px) {
+    .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+        width: auto !important;
+    }
+    .span12 {
+        width: auto !important;
+    }
+
+}
 
 @media (max-width : 480px) {
     #headerwrap {
