@@ -491,7 +491,15 @@ div.cform-response-output {
 }
 
 #patrons ul {
+    margin-top: 5px;
     list-style: none;
+}
+
+.list-column {
+
+    columns: 3;
+    -webkit-columns: 3;
+    -mox-columns: 3;
 }
 
 .footer-wrapper {
@@ -757,7 +765,11 @@ footer {
         padding-right: 0px !important;
     }
 
-}
+    .list-column {
+        columns: 2;
+        -webkit-columns: 2;
+        -mox-columns: 2;
+    }}
 
 @media (max-width: 860px) and (min-width: 768px) {
     .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
@@ -778,6 +790,11 @@ footer {
     }
     #headerwrap h2 {
         font-size:1em;
+    }
+    .list-column {
+        columns: 1;
+        -webkit-columns: 1;
+        -mox-columns: 1;
     }
 }
 
