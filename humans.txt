@@ -1,0 +1,29 @@
+/* TEAM */
+
+Web developer: Henri "Tohtori" Vesala
+Contact: henri.vesala@fraktio.fi
+Twitter: @DrVesala
+From: Espoo, Finland
+
+Design Team:
+
+Creator: Guy Windsor
+
+Creator: Rami Laaksonen
+
+Creator: Samuli Ranien
+
+Graphics: Jussi Alarauhio
+
+
+/* THANKS */
+
+Hosting: Fraktio Oy
+Twitter: @fraktioHq
+From: Helsinki, Finland
+
+/* SITE */
+
+Language: English
+Doctype: HTML5
+Tech: javascript, css, nginx

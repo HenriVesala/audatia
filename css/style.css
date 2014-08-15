@@ -661,6 +661,48 @@ footer {
 	height: auto;
 }
 
+.golden-button {
+
+    font-family:  georgia;
+    color: #fff;
+    text-shadow: none;
+    font-size: 1.3125em; /* 21px */
+    padding:0.7em;
+    letter-spacing: 0.05em;
+    margin: 0 auto;
+    display: inline-block;
+    border: 0;
+    text-transform: none;
+
+    background: goldenrod;
+    background: -moz-radial-gradient(center, ellipse cover,  gold 0%, goldenrod 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,gold), color-stop(100%,goldenrod));
+    background: -webkit-radial-gradient(center, ellipse cover,  gold 0%,goldenrod 100%);
+    background: -o-radial-gradient(center, ellipse cover,  gold 0%,goldenrod 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  gold 0%,goldenrod 100%);
+    background: radial-gradient(ellipse at center, gold 0%,goldenrod 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFD700', endColorstr='#DAA520',GradientType=1 );
+
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    text-shadow: 2px 2px 2px #2b2613;
+}
+
+.golden-button:hover {
+    background: -moz-radial-gradient(center, ellipse cover, #eec600 0%, #c59020 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#eec600), color-stop(100%,#c59020));
+    background: -webkit-radial-gradient(center, ellipse cover,  #eec600 0%,#c59020 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #eec600 0%,#c59020 100%);
+    background: -ms-radial-gradient(center, ellipse cover,  #eec600 0%,#c59020 100%);
+    background: radial-gradient(ellipse at center, #eec600 0%,#c59020 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eec600', endColorstr='#c59020',GradientType=1 );
+    text-shadow: 2px 3px 2px #2b2613;
+    color: #f8f8f8;
+}
 
 .background .borders {
     background: url(../img/audatia/border-left-small.png) repeat-y left center, url(../img/audatia/border-right-small.png) repeat-y right center;
