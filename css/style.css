@@ -27,7 +27,6 @@ div, article, section, header, footer, nav, li {
 body {
 	background:#f0f0f0;
 	color: #312A1E;
-	font-size: 100%;
     font-family: 'patua serif';
     overflow-x: hidden;
 }
@@ -48,8 +47,6 @@ body {
     content:".";
     visibility:hidden;
 }
-
-/*---------- FORMS ----------*/
 
 input[type=text], input[type=submit], textarea {
 	width: 100%;
@@ -167,12 +164,6 @@ small {
 
 
 
-
-/* ---------------------------------------------------------------------------------------------------------- 
-03 Non-semantic ------------------------------------------------------------
----------------------------------------------------------------------------------------------------------- */
-/* New Image Replacement Hack */
-
 .hide-text {
 	text-indent: 100%;
 	white-space: nowrap;
@@ -193,7 +184,6 @@ article {
     text-align: center;
     display: block;
     margin: 0 auto;
-    width: 90%;
     max-width: 1170px;
 }
 
@@ -299,13 +289,7 @@ ul.gauntlets li:nth-child(4) {
     background-size: cover;
 }
 
-#headerwrap img {
-    margin-left: -30px;
-}
-
-
 #headerwrap {
-
 	width: 100%;
 	text-align:center;
 }
@@ -321,7 +305,6 @@ ul.gauntlets li:nth-child(4) {
 
 #headerwrap h2 {
 	color: #FFFFFF;
-
 	font-size: 2em;
 	font-weight: normal;
 	margin: 0.5em 0;
@@ -666,7 +649,6 @@ footer {
     font-family:  georgia;
     color: #fff;
     text-shadow: none;
-    font-size: 1.3125em; /* 21px */
     padding:0.7em;
     letter-spacing: 0.05em;
     margin: 0 auto;
@@ -761,7 +743,7 @@ footer {
         font-size: 2em;
     }
     .alternate-background section h2 {
-        font-size: 1.4em;
+        font-size: 2em;
     }
 }
 
@@ -780,9 +762,6 @@ footer {
         font-size: 2.5em;
     }
 
-    article {
-        width: 70%;
-    }
     body article.middle-image {
         display: block ;
     }
@@ -790,10 +769,6 @@ footer {
 @media screen and (min-width: 979px) {
     .borders header {
         margin: 0px 85px  0 85px;
-    }
-
-    article {
-        width: 50%;
     }
 }
 
@@ -817,9 +792,7 @@ footer {
     .container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
         width: auto !important;
     }
-    .span12 {
-        width: auto !important;
-    }
+
 
 }
 
