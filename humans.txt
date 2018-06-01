@@ -16,14 +16,8 @@ Creator: Samuli Ranien
 Graphics: Jussi Alarauhio
 
 
-/* THANKS */
-
-Hosting: Fraktio Oy
-Twitter: @fraktioHq
-From: Helsinki, Finland
-
 /* SITE */
 
 Language: English
 Doctype: HTML5
-Tech: javascript, css, nginx
+Tech: javascript, css
